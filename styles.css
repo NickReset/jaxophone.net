@@ -28,13 +28,12 @@ body {
 }
 
 #youtube {
-    position: fixed;
-    transform: translate(-30%, -50%);
+    transform: translateY(-50%);
+    position: absolute;
 }
 
 #tiktok {
     right: 0;
-    position: fixed;
-    transform: translate(30%, -50%);
-    scale: 1.2;
+    position: absolute;
+    transform: translateY(-50%);
 }
