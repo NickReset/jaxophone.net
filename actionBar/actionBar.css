@@ -1,9 +1,10 @@
 body {
     margin: 0;
 }
+
 @font-face {
     font-family: 'Shag Lounge';
-    src: url('resources/Shag.otf');
+    src: url('/resources/Shag.otf');
 }
 
 .header {
@@ -28,6 +29,16 @@ body {
     width: 5rem;
     height: 5rem;
     margin-top: 0.5rem;
+}
+
+.right img:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.right .selected {
+    border: 2px solid #ffd4ff;
+    border-radius: 50%;
 }
 
 .header #name {
