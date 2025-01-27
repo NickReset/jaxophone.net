@@ -26,3 +26,15 @@ body {
     left: 50%;
     transform: translateX(-50%);
 }
+
+#youtube {
+    position: fixed;
+    transform: translate(-30%, -50%);
+}
+
+#tiktok {
+    right: 0;
+    position: fixed;
+    transform: translate(30%, -50%);
+    scale: 1.2;
+}
